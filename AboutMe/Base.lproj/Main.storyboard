@@ -1,0 +1,314 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="OyN-Bw-Cwc">
+    <device id="retina6_72" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="TimesNewRoman.ttf">
+            <string>.SFUI-Regular</string>
+        </array>
+    </customFonts>
+    <scenes>
+        <!--About me-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="AboutMe" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="430" height="932"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="About me" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Z4p-9F-Dqh">
+                                <rect key="frame" x="155" y="69" width="120" height="33.666666666666657"/>
+                                <fontDescription key="fontDescription" name=".SFUI-Regular" family=".AppleSystemUIFont" pointSize="30"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="IMG_1468" translatesAutoresizingMaskIntoConstraints="NO" id="y33-8e-p3Y">
+                                <rect key="frame" x="10" y="132.66666666666666" width="410" height="199.99999999999997"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="200" id="yBz-WY-Ovx"/>
+                                </constraints>
+                            </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="Bi4-LL-mhj">
+                                <rect key="frame" x="20" y="342.66666666666674" width="390" height="506.33333333333326"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <string key="text">About me: Mu name is Igor. I’m 23 yers old. I educated in university called MGPU for 4 years. I was learning profession called 1c developer. When I studied I work a lot. For beginning I was a courier, when I was a worker who helps usually people on the stadium. When I was waiter about 4 years. Its difficult job for sure. And now I really want to be a iOS developer. And I’ll do ALL what I need for this. I promise!
+
+Day in my life:  I wake up usually at 12 p.m. Get the shower and then eat something and drink tea or coffee. Then I go to do-do pizza and training my skill about 3-4 hours, if I did something interesting I did it about 5-6 hours. 
+
+When I grow up: I really want do something special for people. For example, app or app’s which could help people in his every day life. 
+
+Favorites: 
+Food: meet 
+Hobby: sport
+Book: Money makes money </string>
+                                <color key="textColor" systemColor="labelColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="Z4p-9F-Dqh" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="2kH-8a-YWj"/>
+                            <constraint firstItem="Z4p-9F-Dqh" firstAttribute="centerX" secondItem="y33-8e-p3Y" secondAttribute="centerX" id="GmX-QX-BxE"/>
+                            <constraint firstItem="Bi4-LL-mhj" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="K8x-JH-doZ"/>
+                            <constraint firstItem="Bi4-LL-mhj" firstAttribute="top" secondItem="y33-8e-p3Y" secondAttribute="bottom" constant="10" id="Ofr-xJ-IKY"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Bi4-LL-mhj" secondAttribute="trailing" constant="20" id="QQx-Sn-vjH"/>
+                            <constraint firstItem="y33-8e-p3Y" firstAttribute="top" secondItem="Z4p-9F-Dqh" secondAttribute="bottom" constant="30" id="e3K-rT-u9P"/>
+                            <constraint firstItem="Z4p-9F-Dqh" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="10" id="vMi-Id-6fU"/>
+                            <constraint firstItem="Bi4-LL-mhj" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="vlX-X4-CNj"/>
+                            <constraint firstItem="y33-8e-p3Y" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="10" id="vpr-uw-Uno"/>
+                        </constraints>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="About me" image="info.square" catalog="system" id="D11-lL-Lxb"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="89.302325581395351" y="744.84978540772534"/>
+        </scene>
+        <!--Family-->
+        <scene sceneID="a3l-xc-724">
+            <objects>
+                <viewController id="JVE-lG-BTe" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="bd1-ph-sUK">
+                        <rect key="frame" x="0.0" y="0.0" width="430" height="932"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="My family" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="i5C-F6-hj9">
+                                <rect key="frame" x="151" y="69" width="128" height="34"/>
+                                <fontDescription key="fontDescription" name=".SFUI-Regular" family=".AppleSystemUIFont" pointSize="30"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="IMG_1353" translatesAutoresizingMaskIntoConstraints="NO" id="iCL-ss-m0G">
+                                <rect key="frame" x="10" y="133" width="410" height="200"/>
+                                <rect key="contentStretch" x="0.25" y="0.0" width="0.0" height="0.0"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="200" id="02g-Pz-4J9"/>
+                                </constraints>
+                            </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="6E4-R3-2f8">
+                                <rect key="frame" x="20" y="343" width="390" height="506"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <string key="text">About my family: 
+I have a good family. I have a brother Ilya, also my sister Anastasia. My mother work’s on the factory where they do salad’s, breakfast’s and some bakery for Coffix and Star’s Coffee and some places like this. My dad does the same work actually, but he do only bakery and cakes for some food shop’s. I worked about 4 year’s in catering company. We organize weddings, events and something like this. My sister studying right now in school. She’s only 15 year’s old. My brother died 22 July in this year. He was at war between Russia and Ukraine. </string>
+                                <color key="textColor" systemColor="labelColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="fBE-oa-jmj"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="fBE-oa-jmj" firstAttribute="trailing" secondItem="6E4-R3-2f8" secondAttribute="trailing" constant="20" id="3ZD-jt-msX"/>
+                            <constraint firstItem="6E4-R3-2f8" firstAttribute="leading" secondItem="fBE-oa-jmj" secondAttribute="leading" constant="20" id="8NV-hh-Bzw"/>
+                            <constraint firstItem="i5C-F6-hj9" firstAttribute="top" secondItem="fBE-oa-jmj" secondAttribute="top" constant="10" id="8Yd-Bp-Dev"/>
+                            <constraint firstItem="i5C-F6-hj9" firstAttribute="centerX" secondItem="bd1-ph-sUK" secondAttribute="centerX" id="CSU-Vx-gMz"/>
+                            <constraint firstItem="6E4-R3-2f8" firstAttribute="bottom" secondItem="fBE-oa-jmj" secondAttribute="bottom" id="JVU-QP-Z5a"/>
+                            <constraint firstItem="6E4-R3-2f8" firstAttribute="top" secondItem="iCL-ss-m0G" secondAttribute="bottom" constant="10" id="LQF-Sb-tsV"/>
+                            <constraint firstItem="iCL-ss-m0G" firstAttribute="leading" secondItem="fBE-oa-jmj" secondAttribute="leading" constant="10" id="PJe-vb-N79"/>
+                            <constraint firstItem="iCL-ss-m0G" firstAttribute="centerX" secondItem="i5C-F6-hj9" secondAttribute="centerX" id="ekC-4g-Vbi"/>
+                            <constraint firstItem="iCL-ss-m0G" firstAttribute="top" secondItem="i5C-F6-hj9" secondAttribute="bottom" constant="30" id="jn6-RW-jnN"/>
+                        </constraints>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Family" image="person.3.fill" catalog="system" id="DTy-YT-KI3"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="LYF-MT-Jwt" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1000.4651162790698" y="744.84978540772534"/>
+        </scene>
+        <!--Hobby-->
+        <scene sceneID="Rb8-Ax-9g8">
+            <objects>
+                <viewController id="ffv-PS-Igz" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="uVw-Oi-BiK">
+                        <rect key="frame" x="0.0" y="0.0" width="430" height="932"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Hobbies" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JQ3-uF-EVa">
+                                <rect key="frame" x="165" y="69" width="100" height="34"/>
+                                <fontDescription key="fontDescription" name=".SFUI-Regular" family=".AppleSystemUIFont" pointSize="30"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="IMG_1724" translatesAutoresizingMaskIntoConstraints="NO" id="l3i-YK-LMr">
+                                <rect key="frame" x="10" y="133" width="410" height="200"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="200" id="YnX-kA-Sq7"/>
+                                </constraints>
+                            </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="DtL-xr-3wk">
+                                <rect key="frame" x="20" y="343" width="390" height="506"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <string key="text">My hobbies:
+I’m interesting in stock market, playing game’s, basketball and more. I like reading book’s about stock market, about people who made big company and telling about his story of making this. It’s unique story’s but one of them can tell you some secret of making business or company like that. </string>
+                                <color key="textColor" systemColor="labelColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="QuL-HJ-HIN"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="DtL-xr-3wk" firstAttribute="leading" secondItem="QuL-HJ-HIN" secondAttribute="leading" constant="20" id="Btp-WU-aMh"/>
+                            <constraint firstItem="JQ3-uF-EVa" firstAttribute="top" secondItem="QuL-HJ-HIN" secondAttribute="top" constant="10" id="HHH-Ze-ysw"/>
+                            <constraint firstItem="DtL-xr-3wk" firstAttribute="bottom" secondItem="QuL-HJ-HIN" secondAttribute="bottom" id="Hb6-e4-vTn"/>
+                            <constraint firstItem="l3i-YK-LMr" firstAttribute="centerX" secondItem="JQ3-uF-EVa" secondAttribute="centerX" id="QWG-8G-CyZ"/>
+                            <constraint firstItem="DtL-xr-3wk" firstAttribute="top" secondItem="l3i-YK-LMr" secondAttribute="bottom" constant="10" id="XMZ-mg-4Fz"/>
+                            <constraint firstItem="JQ3-uF-EVa" firstAttribute="centerX" secondItem="uVw-Oi-BiK" secondAttribute="centerX" id="XoM-bU-j2P"/>
+                            <constraint firstItem="QuL-HJ-HIN" firstAttribute="trailing" secondItem="DtL-xr-3wk" secondAttribute="trailing" constant="20" id="Y6i-bx-jJM"/>
+                            <constraint firstItem="l3i-YK-LMr" firstAttribute="top" secondItem="JQ3-uF-EVa" secondAttribute="bottom" constant="30" id="eHN-d3-itl"/>
+                            <constraint firstItem="l3i-YK-LMr" firstAttribute="leading" secondItem="QuL-HJ-HIN" secondAttribute="leading" constant="10" id="lpR-uH-Vrp"/>
+                        </constraints>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Hobby" image="eyes.inverse" catalog="system" id="1Re-UC-zTP"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="xoF-SB-52D" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1939.5348837209301" y="744.84978540772534"/>
+        </scene>
+        <!--Main View Controller-->
+        <scene sceneID="sYh-YS-2qw">
+            <objects>
+                <viewController id="OyN-Bw-Cwc" customClass="MainViewController" customModule="AboutMe" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="D5p-DM-hzk">
+                        <rect key="frame" x="0.0" y="0.0" width="430" height="932"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="5Mp-Ct-VOI">
+                                <rect key="frame" x="16" y="448" width="49" height="31"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <accessibility key="accessibilityConfiguration">
+                                    <bool key="isElement" value="NO"/>
+                                </accessibility>
+                            </switch>
+                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="o27-U2-sTi">
+                                <rect key="frame" x="71" y="448" width="49" height="31"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </switch>
+                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="zRp-Dq-1v9">
+                                <rect key="frame" x="126" y="448" width="49" height="31"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </switch>
+                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="gb4-2n-uwc">
+                                <rect key="frame" x="194" y="448" width="49" height="31"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </switch>
+                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="0lq-yh-9pu">
+                                <rect key="frame" x="257" y="448" width="49" height="31"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </switch>
+                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="H7z-Rx-AH6">
+                                <rect key="frame" x="312" y="448" width="49" height="31"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </switch>
+                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="Rqd-Sh-TXy">
+                                <rect key="frame" x="367" y="448" width="49" height="31"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </switch>
+                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="6s4-Zm-Hm7">
+                                <rect key="frame" x="16" y="487" width="49" height="31"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </switch>
+                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="ZEk-hO-74a">
+                                <rect key="frame" x="71" y="487" width="49" height="31"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </switch>
+                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="y3B-ML-TbF">
+                                <rect key="frame" x="126" y="487" width="49" height="31"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </switch>
+                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="3JI-BM-ZXo">
+                                <rect key="frame" x="194" y="487" width="49" height="31"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </switch>
+                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="lhR-T2-ePi">
+                                <rect key="frame" x="257" y="487" width="49" height="31"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </switch>
+                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="1OX-TP-L84">
+                                <rect key="frame" x="312" y="487" width="49" height="31"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </switch>
+                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="g9s-Hy-9DG">
+                                <rect key="frame" x="367" y="487" width="49" height="31"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </switch>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="S80-12-GHa">
+                                <rect key="frame" x="181" y="526" width="73" height="35"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Войти"/>
+                                <connections>
+                                    <action selector="ButtonTapped:" destination="OyN-Bw-Cwc" eventType="touchUpInside" id="Qxr-2t-eov"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="eYG-tZ-NhC"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="dfy-3W-nTT"/>
+                    <connections>
+                        <outlet property="segue1" destination="5Mp-Ct-VOI" id="T1T-g5-NIY"/>
+                        <outlet property="segue10" destination="y3B-ML-TbF" id="TG8-ex-Kzy"/>
+                        <outlet property="segue11" destination="3JI-BM-ZXo" id="kPE-5B-0bV"/>
+                        <outlet property="segue12" destination="lhR-T2-ePi" id="v43-yv-Ql0"/>
+                        <outlet property="segue13" destination="1OX-TP-L84" id="ySG-4d-Ou0"/>
+                        <outlet property="segue14" destination="g9s-Hy-9DG" id="DpW-9i-iN6"/>
+                        <outlet property="segue2" destination="o27-U2-sTi" id="qVn-n0-fPe"/>
+                        <outlet property="segue3" destination="zRp-Dq-1v9" id="cbU-7E-7Cx"/>
+                        <outlet property="segue4" destination="gb4-2n-uwc" id="cdF-Yr-qLQ"/>
+                        <outlet property="segue5" destination="0lq-yh-9pu" id="qkn-HX-eKC"/>
+                        <outlet property="segue6" destination="H7z-Rx-AH6" id="ocn-cG-jpW"/>
+                        <outlet property="segue7" destination="Rqd-Sh-TXy" id="jdn-mA-Iur"/>
+                        <outlet property="segue8" destination="6s4-Zm-Hm7" id="fzU-Hh-xV0"/>
+                        <outlet property="segue9" destination="ZEk-hO-74a" id="qsP-8Z-xzQ"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="3aV-z2-qbg" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-632" y="21"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="IaT-OC-Uy6">
+            <objects>
+                <tabBarController storyboardIdentifier="MainMenu" automaticallyAdjustsScrollViewInsets="NO" id="S5k-3E-DSQ" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationItem key="navigationItem" id="6GY-e7-z9e"/>
+                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="U2V-4y-ER6">
+                        <rect key="frame" x="0.0" y="0.0" width="1000" height="1000"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <tabBarAppearance key="scrollEdgeAppearance"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="viewControllers" id="DeV-Gp-Pf6"/>
+                        <segue destination="JVE-lG-BTe" kind="relationship" relationship="viewControllers" id="Lc9-Ck-b8t"/>
+                        <segue destination="ffv-PS-Igz" kind="relationship" relationship="viewControllers" id="26B-8x-yeV"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="YwN-ok-bho" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1000" y="21"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="IMG_1353" width="3024" height="4032"/>
+        <image name="IMG_1468" width="1644" height="2192"/>
+        <image name="IMG_1724" width="4032" height="3024"/>
+        <image name="eyes.inverse" catalog="system" width="128" height="98"/>
+        <image name="info.square" catalog="system" width="128" height="114"/>
+        <image name="person.3.fill" catalog="system" width="128" height="61"/>
+        <systemColor name="labelColor">
+            <color red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
